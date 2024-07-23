@@ -6,42 +6,48 @@ Impulse Coin is a decentralized web application built on the Ethereum Network, d
 
 1. [Abstract](#abstract)
 2. [Project Description](#project-description)
-   - [Proposed Work](#proposed-work)
-     - [Creating a Project](#creating-a-project)
-     - [Spending Request](#spending-request)
-     - [Voting Mechanism](#voting-mechanism)
-   - [Implementation](#implementation)
+   - [2.1 Proposed Work](#proposed-work)
+     - [2.2 Creating a Project](#creating-a-project)
+     - [2.3 Spending Request](#spending-request)
+     - [2.4 Voting Mechanism](#voting-mechanism)
+3. [Architectture](#architecture)
+4. [Implementation](#implementation)
      - [Smart Contract Compilation for Generating Bytecode and ABI](#smart-contract-compilation-for-generating-bytecode-and-abi)
      - [Backend Development and Ethereum Integration](#backend-development-and-ethereum-integration)
      - [Bytecode Deployment Over Local Network and Testing](#bytecode-deployment-over-local-network-and-testing)
      - [Frontend Development and Contract Deployment Over Real Network](#frontend-development-and-contract-deployment-over-real-network)
      - [Finalizing Decentralized Application Over Sepolia ETH Network](#finalizing-decentralized-application-over-sepolia-eth-network)
      - [Community Engagement and Adaptation](#community-engagement-and-adaptation)
-3. [Summary and Conclusion](#summary-and-conclusion)
+5. [Summary and Conclusion](#summary-and-conclusion)
 
-## Abstract
+## 1. Abstract
 
 Impulse Coin explores the utilization of blockchain technology to construct a crowdfunding platform that ensures safe and transparent fundraising, money tracking, and incentive delivery. The platform aims to enhance global participation in fundraising campaigns by empowering contributors and campaign designers with greater control over project funding.
 
-## Project Description
+## 2. Project Description
 
-### Proposed Work
+### 2.1 Proposed Work
 
 Impulse Coin's crowdfunding platform involves two contracts: one for storing all projects and another for managing payments. Key components include program managers, sponsors, suppliers, smart contracts, expenditure orders, and voting mechanisms.
 
-#### Creating a Project
+#### 2.2 Creating a Project
 
 Project managers initiate new projects by defining their details, and supporters can choose to contribute to these projects.
 
-#### Spending Request
+#### 2.3 Spending Request
 
 Project managers initiate spending requests to utilize the funds, detailing the intended expenditure and supplier information. The system ensures modifications require consensus from over half of the network's nodes.
 
-#### Voting Mechanism
+#### 2.4 Voting Mechanism
 
 Only donors who contributed to a project can approve or reject expenditure requests. If the majority approves, funds are transferred to the vendor.
 
-### Implementation
+## 3. Architecture : 
+
+![image](https://github.com/user-attachments/assets/5c132509-7da0-464c-b776-b5c18e1400ef)
+
+
+## 4. Implementation
 
 #### Smart Contract Compilation for Generating Bytecode and ABI
 
