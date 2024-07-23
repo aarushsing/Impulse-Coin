@@ -1,6 +1,6 @@
 # Impulse Coin
 
-Impulse Coin is a decentralized web application built on the Ethereum Network, designed to facilitate secure crowdfunding for R&D projects and startups. This platform aims to revolutionize the conventional crowdfunding landscape by leveraging the power of blockchain technology to ensure transparency, security, and efficiency.
+Impulse Coin is a decentralized web application built on the Ethereum Network, designed to facilitate secure crowdfunding campaigns for R&D projects and startups. This platform aims to revolutionize the conventional crowdfunding landscape by leveraging the power of blockchain technology to ensure transparency, security, and efficiency.
 
 ## Table of Contents
 
@@ -12,12 +12,12 @@ Impulse Coin is a decentralized web application built on the Ethereum Network, d
      - [2.4 Voting Mechanism](#voting-mechanism)
 3. [Architectture](#architecture)
 4. [Implementation](#implementation)
-     - [Smart Contract Compilation for Generating Bytecode and ABI](#smart-contract-compilation-for-generating-bytecode-and-abi)
-     - [Backend Development and Ethereum Integration](#backend-development-and-ethereum-integration)
-     - [Bytecode Deployment Over Local Network and Testing](#bytecode-deployment-over-local-network-and-testing)
-     - [Frontend Development and Contract Deployment Over Real Network](#frontend-development-and-contract-deployment-over-real-network)
-     - [Finalizing Decentralized Application Over Sepolia ETH Network](#finalizing-decentralized-application-over-sepolia-eth-network)
-     - [Community Engagement and Adaptation](#community-engagement-and-adaptation)
+     - [4.1 Smart Contract Compilation for Generating Bytecode and ABI](#smart-contract-compilation-for-generating-bytecode-and-abi)
+     - [4.2 Backend Development and Ethereum Integration](#backend-development-and-ethereum-integration)
+     - [4.3 Bytecode Deployment Over Local Network and Testing](#bytecode-deployment-over-local-network-and-testing)
+     - [4.4 Frontend Development and Contract Deployment Over Real Network](#frontend-development-and-contract-deployment-over-real-network)
+     - [4.5 Finalizing Decentralized Application Over Sepolia ETH Network](#finalizing-decentralized-application-over-sepolia-eth-network)
+     - [4.6 Community Engagement and Adaptation](#community-engagement-and-adaptation)
 5. [Summary and Conclusion](#summary-and-conclusion)
 
 ## 1. Abstract
@@ -49,31 +49,31 @@ Only donors who contributed to a project can approve or reject expenditure reque
 
 ## 4. Implementation
 
-#### Smart Contract Compilation for Generating Bytecode and ABI
+#### 4.1 Smart Contract Compilation for Generating Bytecode and ABI
 
 Smart contracts are developed using the Solidity compiler, producing bytecode and an ABI for deployment on the Ethereum Blockchain.
 
-#### Backend Development and Ethereum Integration
+#### 4.2 Backend Development and Ethereum Integration
 
 Node.js is used for backend development, integrating Ethereum to create a decentralized platform.
 
-#### Bytecode Deployment Over Local Network and Testing
+#### 4.3 Bytecode Deployment Over Local Network and Testing
 
 Ganache is used to deploy bytecode on a local test network, providing a secure environment for testing.
 
-#### Frontend Development and Contract Deployment Over Real Network
+#### 4.4 Frontend Development and Contract Deployment Over Real Network
 
 The frontend is developed using React.js, Web3.js, Next.js, and other tools to create a dynamic and interactive user interface.
 
-#### Finalizing Decentralized Application Over Sepolia ETH Network
+#### 4.5 Finalizing Decentralized Application Over Sepolia ETH Network
 
 Projects can be launched by providing the minimum required contribution, and transactions are managed securely.
 
-#### Community Engagement and Adaptation
+#### 4.6 Community Engagement and Adaptation
 
 Engaging with the community and adapting the platform based on feedback ensures its continuous improvement.
 
-## Summary and Conclusion
+## 5. Summary and Conclusion
 
 Impulse Coin has the potential to revolutionize crowdfunding by providing a safer and more transparent method for fundraising. The platform's decentralized approach ensures greater trust and security for all participants.
 
